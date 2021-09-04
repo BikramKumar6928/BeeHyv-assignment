@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "86533ee6-80a8-4f37-a768-35eef1bf33ca",
+		"name": "Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetFrequency",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/assignment/user",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"assignment",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EvaluateExpression",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "2*(4+5)"
+				},
+				"url": {
+					"raw": "localhost:8080/assignment/user",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"assignment",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
